@@ -56,7 +56,7 @@ public class LoginActivity extends AppCompatActivity {
 
         if (TextUtils.isEmpty(email)) {
             Toast.makeText(this, "Please enter email...", Toast.LENGTH_SHORT).show();
-        } else if (TextUtils.isEmpty(password)) {
+        }  if (TextUtils.isEmpty(password)) {
             Toast.makeText(this, "Please enter password...", Toast.LENGTH_SHORT).show();
         } else {
 
@@ -65,7 +65,7 @@ public class LoginActivity extends AppCompatActivity {
             loadingBar.setCanceledOnTouchOutside(true);
             loadingBar.show();
 
-            mAuth.createUserWithEmailAndPassword(email, password)
+            mAuth.signInWithEmailAndPassword(email, password)
                     .addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                         @Override
                         public void onComplete(@NonNull Task<AuthResult> task) {

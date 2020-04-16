@@ -56,11 +56,11 @@ public class RegisterActivity extends AppCompatActivity {
 
         if (TextUtils.isEmpty(email)) {
             Toast.makeText(this, "Please enter email...", Toast.LENGTH_SHORT).show();
-        } else if (TextUtils.isEmpty(password)) {
+        }  if (TextUtils.isEmpty(password)) {
             Toast.makeText(this, "Please enter password...", Toast.LENGTH_SHORT).show();
         } else {
             loadingBar.setTitle("Creating new Account!!");
-            loadingBar.setMessage("Please wait, untill we are creating new account for you....");
+            loadingBar.setMessage("Please wait, until we are creating new account for you....");
             loadingBar.setCanceledOnTouchOutside(true);
             loadingBar.show();
 
@@ -74,7 +74,7 @@ public class RegisterActivity extends AppCompatActivity {
                             loadingBar.dismiss();
                             }else{
                                 String message = task.getException().toString();
-                                Toast.makeText(RegisterActivity.this, "Error : " +message, Toast.LENGTH_SHORT).show();
+                                Toast.makeText(RegisterActivity.this, "Error : "+message, Toast.LENGTH_SHORT).show();
                                 loadingBar.dismiss();
                             }
                         }
