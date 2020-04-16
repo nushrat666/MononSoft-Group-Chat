@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "246429901237",
+    "firebase_url": "https://mononsoftltd-fe516.firebaseio.com",
+    "project_id": "mononsoftltd-fe516",
+    "storage_bucket": "mononsoftltd-fe516.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:246429901237:android:dd5f2cfd146aefeed339fc",
+        "android_client_info": {
+          "package_name": "com.mononsoft.mononsoftltd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "246429901237-r1ei7h9gofa442b5o4pl583745bp7tvj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mononsoft.mononsoftltd",
+            "certificate_hash": "2e60d6e00594022265b84f86fabdcf1327e5e169"
+          }
+        },
+        {
+          "client_id": "246429901237-gishvikdm56mva7k42qepbt8tk97eo9h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6Ts8Xco7In4wCQ1c9TvxD4Xm0bd7wlKc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "246429901237-gishvikdm56mva7k42qepbt8tk97eo9h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
